@@ -1,0 +1,66 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    background-color: #E6E8E3;
+    color: #080705;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;    
+}
+
+
+.box{
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    background-color: #ffffff;
+    color: #1C3A54;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px #53525269;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+}
+
+/*Acessando a ul que está dentro do elemento com a classe menu*/
+.menu > div > div > ul{
+    list-style: none;
+    display: flex;
+    justify-content:  space-between;
+    flex-wrap: wrap;    
+    background-color: #fff;
+}
+
+.menu > div> div > ul > li{
+    padding: 5px;
+    background-color: #fff;    
+}
+
+.menu > div > div{
+    background-color: #fff;   
+}
+
+.menu-link{
+    color: #080705;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;  
+    background-color: #fff;
+    text-decoration: none;
+    border-bottom: #2a679c solid 2px;
+    padding: 2px;
+}
+
+.menu-link:hover{
+    border-bottom: #00b3b9 solid 2px;
+}
+
