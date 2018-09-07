@@ -1,0 +1,92 @@
+.conteudo-formulario{
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.texto-formulario{
+    color: #000;
+    font-size: 16px;
+    display: block;
+    padding: 10px 0px;
+}
+
+.caixa-texto{
+    display: block;
+    padding: 10px;
+    resize: none;
+    width: 600px;
+    color: #535353;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px #1C3A54 solid;
+}
+.caixa-texto:hover{
+    border-bottom: 2px #0197F6 solid;
+}
+
+.mensagem{
+    padding: 10px;
+    resize: none;
+    display: block;
+    color: #535353;
+    font-size: 14px;
+    border: none;
+    width: 600px;
+    border-bottom: 2px #1C3A54 solid;
+}
+.mensagem:hover{
+    border-bottom: 2px #0197F6 solid;
+}
+.radio-texto{
+    color: #2c2c2c;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.container-formulario{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.combobox{
+    border: none;
+    font-size:16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color:  #1C3A54;
+    color: #fff;
+    border: none;
+    font-size:16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    width: 620px;
+}
+
+.botao:hover{
+    background-color:  #0197F6;
+}
+
+.titulo-formulario{
+    font-size: 36px;
+    color: #1C3A54;
+    font-family: 'Oswald', sans-serif;
+}
+
+.check{
+    margin-top: 10px;
+}

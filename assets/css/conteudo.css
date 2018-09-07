@@ -25,9 +25,25 @@
 .texto{
     display: flex;
     justify-content: center;
-    padding: 10%; 
+    line-height: 1.5;
+    padding: 8%; 
 }
+
 .conteudo{
     display: flex;
     justify-content: space-between;
+}
+
+.lista{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 1.5;
+    padding: 2% 15%;
+}
+
+.conteudo-lista{
+    flex-direction: column;
+    flex-wrap: wrap;
 }
