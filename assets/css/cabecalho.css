@@ -8,10 +8,8 @@
 
 .menu{
     background-color: #fff;
-    position: fixed;
     width: 100%;    
 }
-
 
 .box{
     background-color: #fff;
@@ -26,9 +24,10 @@
     background-color: #ffffff;
     color: #1C3A54;
     font-size: 28px;
-    text-shadow: 2px 2px 2px #53525269;
     font-family: 'Oswald', sans-serif;
     display: inline-block;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /*Acessando a ul que está dentro do elemento com a classe menu*/
@@ -41,11 +40,12 @@
 }
 
 .menu > div> div > ul > li{
-    padding: 5px;
+    padding: 10px;
     background-color: #fff;    
 }
 
 .menu > div > div{
+    margin: auto 0;
     background-color: #fff;   
 }
 
@@ -61,6 +61,6 @@
 }
 
 .menu-link:hover{
-    border-bottom: #00b3b9 solid 2px;
+    border-bottom: #0197F6 solid 2px;
 }
 
