@@ -1,7 +1,7 @@
 * {
     margin: 0; 
     padding: 0; 
-    background-color: #E6E8E3;
+    background-color: #F2F2F2;
     color: #080705;
     font-family: 'Roboto', sans-serif;
 }
@@ -20,14 +20,18 @@
     flex-wrap: wrap;
 }
 
-.titulo{
+.titulo-cabecalho{
     background-color: #ffffff;
-    color: #1C3A54;
+    color: #392f5a;
     font-size: 28px;
     font-family: 'Oswald', sans-serif;
     display: inline-block;
+    text-decoration: none;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+.titulo-cabecalho:hover{
+    color: #3d2394;
 }
 
 /*Acessando a ul que está dentro do elemento com a classe menu*/
@@ -56,11 +60,11 @@
     font-family: 'Open Sans Condensed', sans-serif;  
     background-color: #fff;
     text-decoration: none;
-    border-bottom: #2a679c solid 2px;
+    /*border-bottom: #392f5a solid 2px;*/
     padding: 2px;
 }
 
 .menu-link:hover{
-    border-bottom: #0197F6 solid 2px;
+    border-bottom: #3d2394 solid 2px;
 }
 

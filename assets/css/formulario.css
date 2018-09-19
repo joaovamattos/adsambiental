@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
+    margin: 30px;
 }
 
 .texto-formulario{
@@ -23,10 +24,10 @@
     color: #535353;
     font-size: 14px;
     border: none;
-    border-bottom: 2px #1C3A54 solid;
+    border-bottom: 2px #392F5A solid;
 }
 .caixa-texto:hover{
-    border-bottom: 2px #0197F6 solid;
+    border-bottom: 2px #4f29ca solid;
 }
 
 .mensagem{
@@ -37,10 +38,10 @@
     font-size: 14px;
     border: none;
     width: 600px;
-    border-bottom: 2px #1C3A54 solid;
+    border-bottom: 2px #392F5A solid;
 }
 .mensagem:hover{
-    border-bottom: 2px #0197F6 solid;
+    border-bottom: 2px #4f29ca solid;
 }
 .radio-texto{
     color: #2c2c2c;
@@ -51,6 +52,7 @@
 .container-formulario{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 600px;
 }
 
@@ -66,7 +68,7 @@
 .botao{
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color:  #1C3A54;
+    background-color:  #392F5A;
     color: #fff;
     border: none;
     font-size:16px;
@@ -77,16 +79,31 @@
     width: 620px;
 }
 
+.box-mapa{ 
+    margin: 30px;
+    border-left: #392F5A 2px dotted;
+    padding-left: 40px; 
+}
+.mapa{ 
+    margin: 40px auto;
+}
+
 .botao:hover{
-    background-color:  #0197F6;
+    background-color:  #4f29ca;
 }
 
 .titulo-formulario{
     font-size: 36px;
-    color: #1C3A54;
+    color: #392F5A;
     font-family: 'Oswald', sans-serif;
 }
 
 .check{
     margin-top: 10px;
+}
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
 }
