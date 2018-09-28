@@ -73,11 +73,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #262626;
+    background-image: linear-gradient(160deg,#060606,#191919,#272728,#353538,#353537,#252527,#161617,#000000);
 }
 .informacao-texto{
     color: #F2F2F2;
-    background-color: #262626;
     display: flex;
     justify-content: center;
     line-height: 1.5;
