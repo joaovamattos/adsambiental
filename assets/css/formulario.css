@@ -1,12 +1,43 @@
+.contents{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .conteudo-formulario{
     display: flex;
     justify-content: center;
+    box-sizing: content-box;
 }
-.formulario{
+
+.box-form{
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
-    margin: 30px;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.box-mapa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.titulo-formulario{
+    font-size: 36px;
+    color: #003D5B;
+    font-family: 'Oswald', sans-serif;
+    width: 800px;
+}
+
+.titulo-texto{
+    color: #003D5B;
+    font-size: 22px;
+    display: block;
+    padding: 10px 0px;
 }
 
 .texto-formulario{
@@ -17,17 +48,18 @@
 }
 
 .caixa-texto{
-    display: block;
+    display: flex;
+    max-width: 800px;
     padding: 10px;
     resize: none;
-    width: 600px;
     color: #535353;
     font-size: 14px;
     border: none;
-    border-bottom: 2px #392F5A solid;
+    border-bottom: 2px #003D5B solid;
+    outline: none;
 }
 .caixa-texto:hover{
-    border-bottom: 2px #4f29ca solid;
+    border-bottom: 2px #30638E solid;
 }
 
 .mensagem{
@@ -37,11 +69,12 @@
     color: #535353;
     font-size: 14px;
     border: none;
-    width: 600px;
-    border-bottom: 2px #392F5A solid;
+    max-width: 800px;
+    border-bottom: 2px #003D5B solid;
+    outline: none;
 }
 .mensagem:hover{
-    border-bottom: 2px #4f29ca solid;
+    border-bottom: 2px #30638E solid;
 }
 .radio-texto{
     color: #2c2c2c;
@@ -53,7 +86,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 600px;
+    width: 800px;
 }
 
 .combobox{
@@ -68,7 +101,7 @@
 .botao{
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color:  #392F5A;
+    background-color:  #003D5B;
     color: #fff;
     border: none;
     font-size:16px;
@@ -76,26 +109,11 @@
     padding-bottom: 5px;
     display: flex;
     justify-content: center;
-    width: 620px;
-}
-
-.box-mapa{ 
-    margin: 30px;
-    border-left: #392F5A 2px dotted;
-    padding-left: 40px; 
-}
-.mapa{ 
-    margin: 40px auto;
+    width: 820px;
 }
 
 .botao:hover{
-    background-color:  #4f29ca;
-}
-
-.titulo-formulario{
-    font-size: 36px;
-    color: #392F5A;
-    font-family: 'Oswald', sans-serif;
+    background-color:  #30638E;
 }
 
 .check{
