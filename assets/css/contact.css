@@ -2,7 +2,7 @@
     background-image: url("../images/hands.jpg");  
     background-color: #d89400; 
     width: 100%;
-    height: 480px;
+    height: 615px;
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -10,17 +10,17 @@
 .formulario-contato{
     width: 85%;
     max-width: 900px;
-    background: #00000049;
+    background: #000000a4;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 30px 40px;
     box-sizing: border-box;
-    border-radius: 5px;
     text-align: center;
     align-items: center;
     box-shadow: 0 0 20px #000000b3;
+    text-transform: uppercase;
 }
 
 .formulario-contato > div{
@@ -31,6 +31,9 @@
     margin-top: 0;
     font-weight: 200;
     font-size: 3em;
+    color: #fff;
+    text-shadow: #000 3px 3px 3px;
+    font-family: 'Oswald', sans-serif;
     color: #fff;
 }
 
@@ -43,7 +46,7 @@
     position: absolute;
     pointer-events: none;
     transition: .5s;
-    left: 8%;
+    left: 7%;
     bottom:50%;
 }
 
@@ -53,7 +56,7 @@
 
 .botao-formulario{
     display: inline-block;
-    background: #001646;     
+    background: #3c99d6;     
     padding: 14px 0;
     color: #fff;
     text-transform: uppercase;
@@ -64,7 +67,8 @@
 }
 
 .botao-formulario:hover{
-    background-color: #30698E;
+    background-color: #fff;
+    color: #3c99d6;
 }
 
 .txt{
@@ -74,24 +78,70 @@
     outline: none;
     font-size: 16px;
     margin-top: 16px;
-    border-bottom: #001646 2px solid;
+    border-bottom: #3c99d6 2px solid;
     transition: 0.25s;
     top: 0;
     left: 0;
     margin-bottom: 30px; 
     color: #fff;
+    resize: none;
 }
 
 .txt:focus{
     width: 100%;
-    border-bottom: #30638E 2px solid;
+    border-bottom: #fff 2px solid;
 }
+
 .txt:valid ~ label,
 .txt:focus ~ label{
     top: -18px;
     color: #3c99d6;
     font-size: 14px;
 }
+
 .txt:hover{
-    border-bottom: #30638E 2px solid;
+    border-bottom: #fff 2px solid;
+}
+
+
+.conteudo-formulario{
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+}
+
+.box-form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.box-mapa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.titulo-formulario{
+    font-size: 36px;
+    color: #003D5B;
+    font-family: 'Oswald', sans-serif;
+    width: 800px;
+}
+
+.titulo-texto{
+    color: #003D5B;
+    font-size: 22px;
+    display: block;
+    padding: 10px 0px;
+}
+
+.texto-formulario{
+    color: #000;
+    font-size: 16px;
+    display: block;
+    padding: 10px 0px;
 }
