@@ -1,0 +1,97 @@
+.img-contato{
+    background-image: url("../images/hands.jpg");  
+    background-color: #d89400; 
+    width: 100%;
+    height: 480px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.formulario-contato{
+    width: 85%;
+    max-width: 900px;
+    background: #00000049;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.formulario-contato > div{
+    position: relative;
+}
+
+.formulario-contato > h2{
+    margin-top: 0;
+    font-weight: 200;
+    font-size: 3em;
+    color: #fff;
+}
+
+.formulario-contato > div > label{
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    pointer-events: none;
+    transition: .5s;
+    left: 8%;
+    bottom:50%;
+}
+
+.label-message{
+    bottom:83% !important;
+}
+
+.botao-formulario{
+    display: inline-block;
+    background: #001646;     
+    padding: 14px 0;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 90%;
+    border:none;
+}
+
+.botao-formulario:hover{
+    background-color: #30698E;
+}
+
+.txt{
+    width: 90%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 16px;
+    border-bottom: #001646 2px solid;
+    transition: 0.25s;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px; 
+    color: #fff;
+}
+
+.txt:focus{
+    width: 100%;
+    border-bottom: #30638E 2px solid;
+}
+.txt:valid ~ label,
+.txt:focus ~ label{
+    top: -18px;
+    color: #3c99d6;
+    font-size: 14px;
+}
+.txt:hover{
+    border-bottom: #30638E 2px solid;
+}
