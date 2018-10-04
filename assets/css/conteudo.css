@@ -122,8 +122,8 @@
     padding: 10px;
 }    
 
-.tabela tr:hover{
-    background-color: #555555;
+.tabela tr:hover td{
+    background-color: #474747;
 }
 
 .tabela th{
