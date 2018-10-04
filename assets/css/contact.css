@@ -2,7 +2,7 @@
     background-image: url("../images/hands.jpg");  
     background-color: #d89400; 
     width: 100%;
-    height: 615px;
+    height: 685px;
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -12,7 +12,7 @@
     max-width: 900px;
     background: #000000a4;
     position: absolute;
-    top: 45%;
+    top: 400px;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 30px 40px;
@@ -55,6 +55,7 @@
 }
 
 .botao-formulario{
+    font-size: 16px;
     display: inline-block;
     background: #3c99d6;     
     padding: 14px 0;
@@ -64,6 +65,7 @@
     margin-top: 10px;
     width: 90%;
     border:none;
+    outline: none;
 }
 
 .botao-formulario:hover{
@@ -116,6 +118,7 @@
     flex-wrap: wrap;
     width: 800px;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 .box-mapa{
