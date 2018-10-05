@@ -1,25 +1,32 @@
 .img-contato{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
     background-image: url("../images/hands.jpg");  
     background-color: #d89400; 
+    text-shadow: #000 3px 3px 3px;
     width: 100%;
-    height: 685px;
+    height: 160px;
+    background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-formulario{
+    display: flex;
+    justify-content: center;
 }
 
 .formulario-contato{
     width: 85%;
     max-width: 900px;
-    background: #000000a4;
-    position: absolute;
-    top: 400px;
-    left: 50%;
-    transform: translate(-50%,-50%);
     padding: 30px 40px;
     box-sizing: border-box;
     text-align: center;
     align-items: center;
-    box-shadow: 0 0 20px #000000b3;
     text-transform: uppercase;
 }
 
@@ -42,7 +49,7 @@
     text-align: left;
     text-transform: uppercase;
     font-size: 16px;
-    color: #fff;
+    color: #2c2b2b;
     position: absolute;
     pointer-events: none;
     transition: .5s;
@@ -54,10 +61,24 @@
     bottom:83% !important;
 }
 
+
+.box-termos{
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 5%;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 5px;
+}
+
+.box-termos > label{
+    top: -2px;
+}
+
 .botao-formulario{
     font-size: 16px;
     display: inline-block;
-    background: #3c99d6;     
+    background: #003D5B;     
     padding: 14px 0;
     color: #fff;
     text-transform: uppercase;
@@ -69,8 +90,7 @@
 }
 
 .botao-formulario:hover{
-    background-color: #fff;
-    color: #3c99d6;
+    background-color: #30638E;
 }
 
 .txt{
@@ -80,7 +100,7 @@
     outline: none;
     font-size: 16px;
     margin-top: 16px;
-    border-bottom: #3c99d6 2px solid;
+    border-bottom: #003D5B 2px solid;
     transition: 0.25s;
     top: 0;
     left: 0;
@@ -91,18 +111,18 @@
 
 .txt:focus{
     width: 100%;
-    border-bottom: #fff 2px solid;
+    border-bottom: #30638E 2px solid;
 }
 
 .txt:valid ~ label,
 .txt:focus ~ label{
     top: -18px;
-    color: #3c99d6;
+    color: #30638E;
     font-size: 14px;
 }
 
 .txt:hover{
-    border-bottom: #fff 2px solid;
+    border-bottom: #30638E 2px solid;
 }
 
 
@@ -119,6 +139,13 @@
     width: 800px;
     margin-bottom: 30px;
     padding-top: 30px;
+}
+
+.box-social{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    cursor: pointer;
 }
 
 .box-mapa{
