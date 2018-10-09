@@ -21,11 +21,12 @@
 
 .titulo-cabecalho{
     background-color: #ffffff;
-    color: #003D5B;
+    color: #111344;
     font-size: 28px;
     font-family: 'Oswald', sans-serif;
     display: inline-block;
     text-decoration: none;
+    font-weight: initial;
     padding-top: 2%;
     padding-bottom: 2%;
 }

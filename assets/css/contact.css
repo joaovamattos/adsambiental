@@ -78,7 +78,7 @@
 .botao-formulario{
     font-size: 16px;
     display: inline-block;
-    background: #003D5B;     
+    background: #111344;     
     padding: 14px 0;
     color: #fff;
     text-transform: uppercase;
@@ -100,7 +100,7 @@
     outline: none;
     font-size: 16px;
     margin-top: 16px;
-    border-bottom: #003D5B 2px solid;
+    border-bottom: #111344 2px solid;
     transition: 0.25s;
     top: 0;
     left: 0;
@@ -156,13 +156,13 @@
 
 .titulo-formulario{
     font-size: 36px;
-    color: #003D5B;
+    color: #111344;
     font-family: 'Oswald', sans-serif;
     width: 800px;
 }
 
 .titulo-texto{
-    color: #003D5B;
+    color: #111344;
     font-size: 22px;
     display: block;
     padding: 10px 0px;
