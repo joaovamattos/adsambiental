@@ -90,7 +90,9 @@
     display: flex;
     justify-content: center;
     line-height: 1.5;
-    padding: 8%; 
+    padding: 8%;
+    box-sizing: border-box; 
+    max-width: 50%;
 }
 
 .conteudo{
@@ -109,7 +111,8 @@
 
 .conteudo-lista{
     flex-direction: column;
-    flex-wrap: wrap;
+    box-sizing: border-box; 
+    max-width: 50%;
 }
 
 .tabela{
