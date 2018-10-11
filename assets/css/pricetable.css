@@ -142,7 +142,7 @@
     border-radius: 15px;
     box-shadow: #0000006e 0px 4px 6px;
     animation: animacaofundo 15s infinite;
-    background-size: 400%;
+    background-size: 300%;
 }
 
 .price:hover{
