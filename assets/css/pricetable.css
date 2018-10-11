@@ -102,6 +102,9 @@
     letter-spacing: 1.5px;
     transition: 0.3s;
     white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botao-compra:hover{
