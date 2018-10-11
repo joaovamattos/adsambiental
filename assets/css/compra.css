@@ -1,0 +1,41 @@
+.box-compra{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.formulario-compra{
+    width: 50%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.formulario-compra > div{
+    position: relative;
+}
+
+
+.formulario-compra > div > label{
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #2c2b2b;
+    position: absolute;
+    pointer-events: none;
+    transition: .5s;
+    left: 7%;
+    bottom:50%;
+}
+
+.titulo-compra{
+    font-size: 36px;
+    color: #111344;
+    font-family: 'Oswald', sans-serif;
+    width: 400px;    
+    margin: 0 auto;
+    padding-bottom: 30px;
+}

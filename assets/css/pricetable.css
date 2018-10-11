@@ -43,9 +43,11 @@
     color: #fff;
     font-size: 30px;
     font-family: 'Open Sans Condensed', sans-serif; 
+    text-shadow: #00000050 2px 2px 2px;
 }
 .preco{
     color: #fff;
+    text-shadow: #00000050 2px 2px 2px;
     font-size: 50px;
     font-family: 'Open Sans Condensed', sans-serif; 
 }
