@@ -135,7 +135,7 @@
 .box-form{
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 840px;
     margin-bottom: 30px;
     padding-top: 30px;
 }
@@ -149,7 +149,6 @@
 
 .box-mapa{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     margin-left: 20px;
 }
