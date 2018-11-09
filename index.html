@@ -2,7 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>ADS Soluções Tecno Ambientais LTDA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADS Tecno Ambiental</title>
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/conteudo.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
@@ -10,25 +12,22 @@
     <link rel="stylesheet" href="assets/css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/icons/planet-earth.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
 <body>
     <!--Cabeçalho do site-->
   
-    <header>
-        <nav class="menu"> 
-            <div class="box">
-                <div>               
-                    <a href="index.html"><h1 class="titulo-cabecalho">ADS Soluções Tecno Ambientais LTDA</h1></a>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="index.html" class="menu-link">Início</a></li>
-                        <li><a href="sobre.html" class="menu-link">Sobre nós</a></li>
-                        <li><a href="adquira.html" class="menu-link">Adquira nosso produto</a></li>
-                        <li><a href="contact.html" class="menu-link">Contato</a></li>
-                    </ul>
-                </div>            
-            </div>
+    <header>            
+        <div class="logo"><a href="index.html"><h1>ADS Tecno Ambiental</h1></a></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="adquira.html">Nosso Produto</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
         </nav>
+        <div class="menu-toggle"><a href="#" onclick="mostrarMenu()"><i class="fas fa-bars"></i></a></div>
     </header> 
 
     <!--Conteúdo principal do site-->
@@ -71,7 +70,7 @@
     <footer class="rodape">
         <div class="box-rodape">
             <div>                
-                <p class="texto-rodape">ADS Soluções Tecno Ambientais LTDA</p>
+                <p class="texto-rodape">ADS Tecno Ambiental</p>
             </div>
             <div>
                 <p class="texto-rodape">JOÃO VICTOR</p>
@@ -79,4 +78,16 @@
         </div>
     </footer> 
 </body>
+<script>
+    let menuAtivo = false;
+    function mostrarMenu(){
+        if (menuAtivo){
+            document.querySelector('#navbar').style.left = '-100%';
+            menuAtivo = false;
+        } else {
+            document.querySelector('#navbar').style.left = '0';
+            menuAtivo = true;
+        }
+    }
+</script>
 </html>

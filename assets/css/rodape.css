@@ -4,7 +4,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 
 .texto-rodape{    
@@ -15,8 +15,6 @@
     padding-bottom: 7px;
 }
 
-
-
 .box-rodape{    
     background-color: #080705;
     max-width: 1200px;
@@ -24,4 +22,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media(max-width: 715px){
+    .texto-rodape{
+        padding: 0 2em;
+    }
 }
