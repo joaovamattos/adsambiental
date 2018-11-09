@@ -107,10 +107,10 @@
     display: flex;
     justify-content: center;
     line-height: 1.5;
-    padding: 6em;
+    padding: 4em;
     box-sizing: border-box;
     flex-direction: column;
-    /* max-width: 50%; */
+    max-width: 100%;
 }
 
 .conteudo{
