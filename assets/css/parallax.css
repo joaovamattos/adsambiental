@@ -1,0 +1,72 @@
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+section.sec0{
+    background-image: linear-gradient(to right bottom, #fff7f7, #f4eff0, #e9e6e8, #dfdee0, #d6d6d6);
+    background-attachment: fixed;
+    display: flex;
+}
+section.sec1{
+    background: url("../images/corn.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.sec2{
+    background: url("../images/arduino.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.sec3{
+    background: url("../images/web.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.sec4{
+    background: url("../images/statistics.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.secTexto{
+    /* padding: 2em 2em; */
+    height: auto;
+}
+
+.sec{
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sec img{
+    width: 80%;
+    display: block;
+}
+
+.box-botao{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+@media(max-width: 768px){
+    .sec{
+        max-width: 100%;
+    }
+    .sec:last-child{
+        display: none;
+    }
+
+}

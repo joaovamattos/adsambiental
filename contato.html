@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ADS Tecno Ambiental</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/conteudo.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
     <link rel="stylesheet" href="assets/css/pricetable.css">
+    <link rel="stylesheet" href="assets/css/parallax.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/icons/planet-earth.png" />
@@ -23,87 +24,80 @@
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>                
                 <li><a href="adquira.html">Nosso Produto</a></li>
-                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
         <div class="menu-toggle"><a href="#" onclick="mostrarMenu()"><i class="fas fa-bars"></i></a></div>
     </header> 
-
-
-<body>
     <main>
-    <h2 class="img-contato">Contato</h2>
-    <div class="box-formulario">
-        <form class="formulario-contato">
-            <div>
-                <input class="txt" type="text" id="nome" required>
-                <label for="nome">Nome</label>
+            <h2 class="img-contato">Contato</h2>
+            <div class="box-formulario">
+                <form class="formulario-contato">
+                    <div>
+                        <input class="txt" type="text" id="nome" required>
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div>
+                        <input class="txt" type="email" id="nome" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div>
+                        <input class="txt" type="text" id="assunto" required>
+                        <label for="assunto">Assunto</label>
+                    </div>
+                    <div>
+                        <textarea class="txt" id="message" cols="30" rows="10" required></textarea>
+                        <label class="label-message" for="message">Mensagem</label>
+                    </div>
+                    <div class="box-termos"> 
+                        <input type="checkbox" id="contrato" required>
+                        <label for="contrato">Aceito os termos</label>
+                    </div>
+                    <div>
+                        <input class="botao-formulario" type="submit" required="" value="Enviar">
+                    </div>
+                </form>
             </div>
-            <div>
-                <input class="txt" type="email" id="nome" required>
-                <label for="email">E-mail</label>
+        <div class="conteudo-formulario">
+           <div class="box-mapa">
+                <div>
+                    <p class="titulo-formulario">Nos Encontre:</p>
+                </div>
+                <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.136515129966!2d-60.121029985180854!3d-12.704511591031507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93b96be3e6498bd7%3A0x66ce4f62185d43bb!2sInstituto+Federal+de+Rond%C3%B4nia+-+Campus+Vilhena!5e0!3m2!1spt-BR!2sbr!4v1538090685833" frameborder="0" style="border:0" allowfullscreen width="100%" height="100%"></iframe>
+                </div>                
+           </div>
+            <div class="social">
+                <div class="social-div">
+                    <div><p class="titulo-formulario">Telefone:</p></div>
+                    <div><p class="texto-formulario">(69) 2101-0700</p></div>
+                    <div><p class="titulo-formulario">Endereço:</p></div>
+                    <div> <p class="texto-formulario">Rodovia BR-174, Km 3, S/n <br> Zona Urbana, Vilhena - RO, 76980-000</p></div>
+                </div>
+                <div class="social-div">
+                   <div class="box-social">
+                        <a href="https://pt-br.facebook.com/ifrondonia/"><img src="assets/images/social/facebook.svg" alt="" width="50px" height="50px"></a>
+                        <a href="https://www.instagram.com/ifro_oficial/"><img src="assets/images/social/instagram.svg" alt="" width="50px" height="50px"></a>
+                        <a href="https://www.youtube.com/channel/UC2psRXqqB4BlMxBFIM60QGg"><img src="assets/images/social/youtube.svg" alt="" width="50px" height="50px"></a>
+                        <a href="https://twitter.com/ifrondonia"><img src="assets/images/social/twitter.svg" alt="" width="50px" height="50px"></a>   
+                    </div>
+                    <div><a href="adquira.html" class="botao-conheca">Conheça nosso produto</a></div>
+                </div>
             </div>
-            <div>
-                <input class="txt" type="text" id="assunto" required>
-                <label for="assunto">Assunto</label>
-            </div>
-            <div>
-                <textarea class="txt" id="message" cols="30" rows="10" required></textarea>
-                <label class="label-message" for="message">Mensagem</label>
-            </div>
-            <div class="box-termos"> 
-                <input type="checkbox" id="contrato" required>
-                <label for="contrato">Aceito os termos</label>
-            </div>
-            <div>
-                <input class="botao-formulario" type="submit" required="" value="Enviar">
-            </div>
-        </form>
-    </div>
-    <div class="conteudo-formulario">
-    <div class="box-form">
-        <div>
-            <p class="titulo-formulario">Nos Encontre:</p>
         </div>
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13091.474198931617!2d-60.116092780850074!3d-12.705683589639433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66ce4f62185d43bb!2sInstituto+Federal+de+Rond%C3%B4nia+-+Campus+Vilhena!5e0!3m2!1spt-BR!2sbr!4v1537320299586" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="box-mapa">
-            <div>
-                <p class="titulo-texto">Telefone:</p>
-            </div>
-            <div>
-                <p class="texto-formulario">(69) 2101-0700</p>
-            </div>
-            <div>
-                <p class="titulo-texto">Endereço:</p>
-            </div>
-            <div>
-                <p class="texto-formulario">Rodovia BR-174, Km 3, S/n <br> Zona Urbana, Vilhena - RO, 76980-000</p>
-            </div>
-            <div class="box-social">
-                <a href="https://pt-br.facebook.com/ifrondonia/"><img src="assets/images/social/facebook.svg" alt="" width="50px" height="50px"></a>
-                <a href="https://www.instagram.com/ifro_oficial/"><img src="assets/images/social/instagram.svg" alt="" width="50px" height="50px"></a>
-                <a href="https://www.youtube.com/channel/UC2psRXqqB4BlMxBFIM60QGg"><img src="assets/images/social/youtube.svg" alt="" width="50px" height="50px"></a>
-               <a href="https://twitter.com/ifrondonia"><img src="assets/images/social/twitter.svg" alt="" width="50px" height="50px"></a>               
-            </div>
-            <a href="adquira.html" class="botao-adquira">Aquira nosso produto</a>
-        </div>
-    </div>     
-</main>
-
+    </main>
 <!--Rodapé do site-->
 <footer class="rodape">
-<div class="box-rodape">
-    <div>                
-        <p class="texto-rodape">ADS Soluções Tecno Ambientais LTDA</p>
-    </div>
-    <div>
-        <p class="texto-rodape">JOÃO VICTOR</p>
-    </div>  
-</div>
-</footer> 
+        <div class="box-rodape">
+            <div>                
+                <p class="texto-rodape">ADS  Tecno Ambientail</p>
+            </div>
+            <div>
+                <p class="texto-rodape">JOÃO VICTOR</p>
+            </div>  
+        </div>
+    </footer> 
 </body>
 <script>
     let menuAtivo = false;

@@ -2,6 +2,7 @@
     margin: 0; 
     padding: 0; 
     font-family: 'Roboto', sans-serif;
+    color: #262626;
 }
 
 .box{
@@ -38,10 +39,14 @@ header{
 
 .logo a{
     text-decoration: none;    
-    color: #111344;
 }
 
-.logo a:hover{   
+.logo a h1{
+    font-family: 'Oswald', sans-serif;
+    color: #111344 ;
+}
+
+.logo a h1:hover{   
     color: #4b4d83;
 }
 
@@ -51,6 +56,7 @@ header{
 
 header nav{
     float: right;
+    z-index: 1;
 }
 
 header nav ul{
@@ -63,7 +69,7 @@ header nav ul li{
     list-style: none;
     font-size: 1em;
     text-transform: uppercase;
-    transition: .2s;
+    transition: .5s;
     /* font-weight: bold; */
 }
 
@@ -81,6 +87,13 @@ header nav ul li:hover a{
 
 header nav ul li:hover {
     background-color: #4b4d83;
+}
+
+header nav ul li:last-child a{
+    color: #fff;
+    padding: .5em .8em ;
+    background-color: #4b4d83;
+    border-radius: 3em;
 }
 
 .fas{

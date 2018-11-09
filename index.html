@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/conteudo.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
     <link rel="stylesheet" href="assets/css/pricetable.css">
+    <link rel="stylesheet" href="assets/css/parallax.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/icons/planet-earth.png" />
@@ -23,8 +24,8 @@
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>                
                 <li><a href="adquira.html">Nosso Produto</a></li>
-                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
         <div class="menu-toggle"><a href="#" onclick="mostrarMenu()"><i class="fas fa-bars"></i></a></div>
@@ -32,24 +33,46 @@
 
     <!--Conteúdo principal do site-->
     <main>
-        <p class="img-slogan">Somos mais do que mil, somos um!</p>
-        <div class="conteudo">
-            <p class="texto">Foi feito um estudo no cone sul da cidade de Vilhena e foi concluído que a temperatura da cidade está cada dia maior, tendo em vista que a causa possível é o desmatamento e as grandes plantações de soja e milho principalmente.</p>
-            <img src="assets/images/corn.jpeg" alt="Plantação de milho" width="50%" height="100%">
-        </div>
-        <div class="conteudo">
-            <img src="assets/images/arduino.jpg" alt="Protótipo utilizando Arduino" width="50%" height="100%">    
-            <p class="texto">Como solução, foi proposta a implantação de centrais meteorológicas pequenas na cidade em casas que possuem acesso à internet sem fio pela prefeitura da cidade, dando como recompensa dos dados gerados um desconto em determinado ambiente ou nas tarifas de água/energia/iptu. </p>              
-        </div>
-        <div class="conteudo">
-            <p class="texto">A solução que foi encontrada pela equipe visa a criação de uma plataforma web com dados disponíveis para toda a população civil e acadêmica com base nas estações meteorológicas que vão estar ativas em cada bairro, gerando uma média de sensação de conforto no ambiente.
-            Com base nesses dados, a prefeitura em conjunto com os órgãos competentes irão tomar decisões como quais áreas arborizar primeiro por exemplo.</p>
-            <img src="assets/images/web.jpeg" alt="Homem usando computador" width="50%" height="100%">
-        </div>
-        <div class="conteudo">
-            <img src="assets/images/statistics.jpeg" alt="Estatísticas em uma folha sobre uma mesa" width="50%" height="100%">
-                <div class="conteudo-lista">
-                    <p class="texto">As principais vantagens da utilização das estações são:</p>
+        <section class="sec0">
+           <div class="sec">
+               <div class="texto">
+                <p class="texto-destaque">Bem vindo!</p>
+                <p>A ADS Soluções Tecno Ambientais LTDA é uma empresa fictícia criada para realização de um trabalho proposto pela professora Débora, para matéria de Tecnologia e Meio Ambiente, no quarto semestre do curso de Análise e Desenvolvimento de Sistemas. Mesmo sendo uma empresa fictícia, nosso empenho é real, convidamos você a conhecer nossso produto.</p>       
+                <div class="box-botao">
+                    <a href="adquira.html" class="botao-conheca">Conheça nosso produto</a>
+                </div>  
+               </div>                     
+           </div>
+           <div class="sec">
+               <img src="assets/images/icons/desktop.png" alt="Homem programando em um computador de mesa">
+           </div>
+        </section>
+        <section class="secTexto">
+            <div class="texto">
+                <p class="texto-destaque">Problemática</p>
+                <p>Foi feito um estudo no cone sul da cidade de Vilhena e foi concluído que a temperatura da cidade está cada dia maior, tendo em vista que a causa possível é o desmatamento e as grandes plantações de soja e milho principalmente.</p>
+            </div>
+        </section>
+        <section class="sec1"></section>
+        <section class="secTexto">
+            <div class="texto">
+                <p class="texto-destaque">Solução</p>
+                <p>Como solução, foi proposta a implantação de centrais meteorológicas pequenas na cidade em casas que possuem acesso à internet sem fio pela prefeitura da cidade, dando como recompensa dos dados gerados um desconto em determinado ambiente ou nas tarifas de água/energia/iptu.</p>
+            </div>
+        </section>
+        <section class="sec2"></section>
+        <section class="secTexto">
+            <div class="texto">
+                <p class="texto-destaque">Desenvolvimento</p>
+                <p>A solução que foi encontrada pela equipe visa a criação de uma plataforma web com dados disponíveis para toda a população civil e acadêmica com base nas estações meteorológicas que vão estar ativas em cada bairro, gerando uma média de sensação de conforto no ambiente. Com base nesses dados, a prefeitura em conjunto com os órgãos competentes irão tomar decisões como quais áreas arborizar primeiro por exemplo.</p>
+                <p>As estações meteorológicas, bem como a plataforma web que a acompanha, foi desenvolvida pensando principalmente nas necessidades de controle de determinados parâmetros que o governo tem. Tendo em mente, o principal mercado do produto é a prefeitura de Vilhena, a qual, será a principal beneficiada a curto prazo, contudo, outras áreas de interesse do produto a longo prazo são não só outras cidades com necessidades semelhantes, como também profissionais e estudantes que podem ter acesso a esses dados, não se esquecendo, é claro, da população em si, que pode acessar um controle simples e eficaz da região onde mora com comodidade e facilidade.</p>
+            </div>
+        </section>
+        <section class="sec3"></section>
+        <section class="secTexto">
+            <div class="texto">
+                <p class="texto-destaque">Vantagens</p>
+                <p>As principais vantagens da utilização das estações são:</p>
                     <div class="lista">
                         <ul>
                             <li>Medição em tempo real;</li>
@@ -59,15 +82,18 @@
                             <li>Custo mensal baixo;</li>
                         </ul>
                     </div>
-                   <div class="box-center">
-                        <a href="adquira.html" class="botao-adquira">Aquira nosso produto</a>
-                   </div>
-                </div>
             </div>
+        </section>
+        <section class="sec4"></section>
+        <section class="secTexto">
+            <div class="texto">
+                <p class="texto-destaque">Missão</p>
+                <p>A empresa ADS Soluções Tecno Ambientais LTDA é uma empresa que surge para explorar a lacuna e necessidade dos municípios do cone sul de Rondônia em registrar, processar e monitorar a variação de temperatura em determinados pontos da sua região, tudo isso através de uma gestão e profissionais de qualidade, que desenvolvem soluções de hardware específicas para cada necessidade e cliente.</p>
+            </div>
+        </section>
     </main>
-
-    <!--Rodapé do site-->
-    <footer class="rodape">
+ <!--Rodapé do site-->
+ <footer class="rodape">
         <div class="box-rodape">
             <div>                
                 <p class="texto-rodape">ADS Tecno Ambiental</p>
