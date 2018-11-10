@@ -133,6 +133,9 @@
     box-sizing: border-box;    
     border: .1em solid #262626;
     white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botao-conheca:hover{
