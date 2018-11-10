@@ -58,12 +58,7 @@
     margin: 3em 0px;
 }
 
-@media(max-width: 715px){
-    .informacao-texto{
-        max-width: 500px;
-        padding: 0 2em;
-    }
-}
+
 
 .box-informacao{
     display: flex;
@@ -92,6 +87,13 @@
         margin: 1em auto;
         padding: 0 2em;
         display: block;
+    }
+    .informacao-texto{
+        max-width: 500px;
+        padding: 0 2em;
+    }
+    .botao-conheca{
+        padding: 1em !important;
     }
 }
 
