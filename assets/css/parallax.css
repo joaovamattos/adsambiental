@@ -35,7 +35,6 @@ section.sec4{
 }
 
 .secTexto{
-    /* padding: 2em 2em; */
     height: auto;
 }
 
@@ -58,7 +57,6 @@ section.sec4{
     display: flex;
     justify-content: flex-start;
 }
-
 
 
 @media(max-width: 768px){

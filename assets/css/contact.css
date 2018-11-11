@@ -73,7 +73,7 @@
     margin-bottom: .5em;
 }
 
-.box-termos > label{
+.label-termos{
     position: absolute;
     top: -2px;
 }
@@ -97,6 +97,20 @@
     background-color: #30638E;
 }
 
+.titulo-formulario{
+    font-size: 36px;
+    color: #111344;
+    font-family: 'Oswald', sans-serif;
+    max-width: 800px;
+    width: 100%;
+    display: block;
+}
+.texto-formulario{
+    color: #262626;
+    font-size: 1.3em;
+    display: block;
+    padding: 10px 0px;
+}
 .txt{
     width: 90%;
     border: none;
@@ -128,7 +142,6 @@
     border-bottom: #30638E 2px solid;
 }
 
-
 .conteudo-formulario{
     display: flex;
     justify-content: center;
@@ -157,8 +170,6 @@
     display: inline-block;
     text-align: center;
 }
-
-
 .mapa{
     width: 100%;
     height: 80%;
@@ -201,6 +212,56 @@
     border-right: .1em dotted #111344;
 }
 
+.social-btn{
+    background-color: #e4e4e4;
+    width: 4em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 0 .1em .4em .1em #26262625;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.social-btn i{
+    font-size: 1.5em;
+    transition: .3s linear;
+}
+
+.social-btn:nth-child(1) i{
+    color: #0b3faf;
+}
+.social-btn:nth-child(2) i{
+    color: #cc119d;
+}
+.social-btn:nth-child(3) i{
+    color: #b40f0f;
+}
+.social-btn:nth-child(4) i{
+    color: #0fa1ce;
+}
+
+.social-btn:hover i{
+    transform: scale(1.3);
+    color: #e4e4e4;
+}
+
+.social-btn:nth-child(1):hover{
+    background-color: #0b3faf;
+}
+.social-btn:nth-child(2):hover{
+    background-color: #cc119d;
+}
+.social-btn:nth-child(3):hover{
+    background-color: #b40f0f;
+}
+.social-btn:nth-child(4):hover{
+    background-color: #0fa1ce;
+}
+
+
 @media(max-width: 1150px){
     .social-div:nth-child(1){
         border:none;        
@@ -209,22 +270,8 @@
     .social-div{
         min-width: 100%;
     }
-
-}
-.titulo-formulario{
-    font-size: 36px;
-    color: #111344;
-    font-family: 'Oswald', sans-serif;
-    max-width: 800px;
-    width: 100%;
-    display: block;
-}
-
-
-
-.texto-formulario{
-    color: #000;
-    font-size: 1.3em;
-    display: block;
-    padding: 10px 0px;
+    .label-termos{
+        left: 60px !important;
+        white-space: nowrap;
+    }
 }

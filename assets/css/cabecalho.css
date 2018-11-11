@@ -5,21 +5,12 @@
     color: #262626;
 }
 
-.box{
-    background-color: #fff;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
 header{
     position: absolute;
     top: 0;
     left: 0;
     padding: 0 100px;
-    background-color: #fff;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -60,8 +51,6 @@ header nav{
 }
 
 header nav ul{
-    margin: 0;
-    padding: 0;
     display: flex;
 }
 
@@ -70,7 +59,6 @@ header nav ul li{
     font-size: 1em;
     text-transform: uppercase;
     transition: .5s;
-    /* font-weight: bold; */
 }
 
 header nav ul li a{
@@ -125,9 +113,6 @@ header nav ul li:last-child a{
         background-color: #eeeeee;
         transition: 0.5s;
     }
-    /* header nav.active{
-        left: 0;
-    } */
     header nav ul{
         display: block;
         text-align: center;
